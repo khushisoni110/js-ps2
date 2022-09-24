@@ -1,0 +1,21 @@
+<html>
+<b> First Number: </b><br>
+<input type ="text" id="txt1"><br><br>
+<b>Second Number: </b><br>
+<input type ="text" id="txt2"><br><br>
+
+<input type="button" value="Click Here" onclick="call()">
+</html>
+
+<script>
+ function call()
+ {
+   c=parseInt(txt1.value)+parseInt(txt2.value)
+   // parseInt is used to convert string into int
+   //c= txt1.value+txt2.value
+   //here + means it will not do addition it will concadinate strings
+   //instead of this we can use *multiplication for the correct multi answer
+   alert("Addition:"+c)
+
+ }
+ </script>
